@@ -6,9 +6,45 @@
   --accent-color: #ff6c00;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+img {
+  display: block;
+}
+
 body {
   font-family: "Opn Sans", sans-serif;
   background-color: var(--main-title-color);
+}
+
+.container {
+  width: 1200px;
+
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* --------Header */
@@ -55,6 +91,8 @@ body {
 /* -------Header */
 .header {
   background-color: navy;
+  border-top: 32px;
+  padding-bottom: 32px;
 }
 
 .insta-youtube-link {
@@ -120,7 +158,12 @@ body {
   color: rgba(157, 164, 189, 0.6);
 }
 
+.hero-content {
+  padding: 272px 100px 206px 100px;
+}
+
 .hero-title {
+  margin-bottom: 20px;
   font-family: "Raleway";
   font-weight: 700;
   font-size: 72px;
@@ -130,17 +173,22 @@ body {
 }
 
 .hero-text {
+  max-width: 360px;
   color: #9da4bd;
 }
 
 /* --------About */
 .about {
+  padding-top: 130px;
+  padding-bottom: 130px;
 }
 
 .about-item {
 }
 
 .about-title {
+  margin-bottom: 20px;
+
   font-family: "Raleway";
   font-size: 42px;
   line-height: 1.17;
@@ -149,10 +197,22 @@ body {
 }
 
 .about-after-title {
+  margin-bottom: 20px;
+
   color: #555555;
 }
 
+.pre-title {
+  margin-bottom: 20px;
+}
+
+.about-after-title {
+  margin-bottom: 20px;
+}
+
 .about-text {
+  margin-bottom: 20px;
+
   font-size: 14px;
   line-height: 1.86;
   letter-spacing: 0.02em;
@@ -160,6 +220,8 @@ body {
 }
 
 .about-btn {
+  margin-bottom: 40px;
+
   color: var(--second-title-color);
 }
 
@@ -185,6 +247,9 @@ body {
 }
 
 .price-btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
   color: var(--main-title-color);
 }
 
